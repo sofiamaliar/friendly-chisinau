@@ -157,13 +157,13 @@ section{position:relative}
 /* ---------- casa gallery ---------- */
 #casa{background:var(--ink);color:#fff;overflow:hidden}
 #casa .sec-head p{color:rgba(255,255,255,.72)}
-.casa-strip{overflow:hidden;margin:26px 0 6px;-webkit-mask:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
-.casa-row{display:flex;gap:16px;width:max-content;will-change:transform}
+.casa-strip{overflow:hidden;margin:26px 0 6px}
+.casa-row{display:flex;width:max-content;will-change:transform}
 .casa-row+.casa-row{margin-top:16px}
 .casa-row.r1{animation:casascroll 58s linear infinite}
 .casa-row.r2{animation:casascroll2 58s linear infinite}
 .casa-strip:hover .casa-row{animation-play-state:paused}
-.casa-row figure{height:220px;margin:0;flex:0 0 auto;border-radius:16px;overflow:hidden}
+.casa-row figure{height:220px;margin:0 16px 0 0;flex:0 0 auto;border-radius:16px;overflow:hidden}
 .casa-row img{height:100%;width:auto;display:block;object-fit:cover}
 @keyframes casascroll{to{transform:translateX(-50%)}}
 @keyframes casascroll2{from{transform:translateX(-50%)}to{transform:translateX(0)}}
@@ -471,33 +471,33 @@ footer .logo{height:30px;filter:brightness(0) invert(1)}
   </div>
   <div class="casa-strip rv" aria-label="Фотографии вечеров Friendly">
     <div class="casa-row r1">
-      <figure><img src="assets/casa-01.jpg" alt="Знакомства за столом" loading="lazy"></figure>
-      <figure><img src="assets/casa-02.jpg" alt="Разговор у окна" loading="lazy"></figure>
-      <figure><img src="assets/casa-03.jpg" alt="Гостья смеётся" loading="lazy"></figure>
-      <figure><img src="assets/casa-04.jpg" alt="За столом с вином" loading="lazy"></figure>
-      <figure><img src="assets/casa-05.jpg" alt="Пара общается" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-01.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-02.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-03.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-04.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-05.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="assets/casa-01.jpg" alt="Знакомства за столом"></figure>
+      <figure><img src="assets/casa-02.jpg" alt="Разговор у окна"></figure>
+      <figure><img src="assets/casa-03.jpg" alt="Гостья смеётся"></figure>
+      <figure><img src="assets/casa-04.jpg" alt="За столом с вином"></figure>
+      <figure><img src="assets/casa-05.jpg" alt="Пара общается"></figure>
+      <figure aria-hidden="true"><img src="assets/casa-01.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-02.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-03.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-04.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-05.jpg" alt=""></figure>
     </div>
     <div class="casa-row r2">
-      <figure><img src="assets/casa-06.jpg" alt="Гостья у окна" loading="lazy"></figure>
-      <figure><img src="assets/casa-07.jpg" alt="Вечер в особняке" loading="lazy"></figure>
-      <figure><img src="assets/casa-08.jpg" alt="Гость Friendly" loading="lazy"></figure>
-      <figure><img src="assets/casa-09.jpg" alt="В зале особняка" loading="lazy"></figure>
-      <figure><img src="assets/casa-10.jpg" alt="Съёмка вечера" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-06.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-07.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-08.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-09.jpg" alt="" loading="lazy"></figure>
-      <figure aria-hidden="true"><img src="assets/casa-10.jpg" alt="" loading="lazy"></figure>
+      <figure><img src="assets/casa-06.jpg" alt="Гостья у окна"></figure>
+      <figure><img src="assets/casa-07.jpg" alt="Вечер в особняке"></figure>
+      <figure><img src="assets/casa-08.jpg" alt="Гость Friendly"></figure>
+      <figure><img src="assets/casa-09.jpg" alt="В зале особняка"></figure>
+      <figure><img src="assets/casa-10.jpg" alt="Съёмка вечера"></figure>
+      <figure aria-hidden="true"><img src="assets/casa-06.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-07.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-08.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-09.jpg" alt=""></figure>
+      <figure aria-hidden="true"><img src="assets/casa-10.jpg" alt=""></figure>
     </div>
   </div>
   <div class="wrap">
     <div class="casa-info rv">
-      <div class="addr"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="var(--gold)" stroke-width="2" style="vertical-align:-2px"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Strada Mitropolit G. Bănulescu-<b>Bodoni 17</b>, Chișinău</div>
+      <div class="addr"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="var(--gold)" stroke-width="2" style="vertical-align:-2px"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Strada Mitropolit G. <span style="white-space:nowrap">Bănulescu‑<b>Bodoni 17</b></span>, Chișinău</div>
       <a href="https://maps.app.goo.gl/YV83FABZAVUG2yy6A" target="_blank" rel="noopener" class="btn btn-white btn-sm" data-ru="Открыть на карте" data-ro="Vezi pe hartă">Открыть на карте</a>
     </div>
   </div>
@@ -544,7 +544,7 @@ footer .logo{height:30px;filter:brightness(0) invert(1)}
       <div class="eyebrow" data-ru="Как добраться" data-ro="Cum ajungi">Как добраться</div>
       <h2 class="rv" data-ru="Твои люди" data-ro="Oamenii tăi">Твои люди <span class="script" data-ru="уже здесь" data-ro="sunt deja aici">уже здесь</span></h2>
       <p class="rv d1" data-ru="Выбери ближайший вечер — остальное сделает Friendly 360°. Мы в самом центре Кишинёва, в историческом особняке на Bodoni 17." data-ro="Alege cea mai apropiată seară — restul îl face Friendly 360°. Suntem chiar în centrul Chișinăului, într-un conac istoric pe Bodoni 17.">Выбери ближайший вечер — остальное сделает Friendly 360°. Мы в самом центре Кишинёва, в историческом особняке на Bodoni 17.</p>
-      <div class="visit-addr rv d1"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="var(--gold)" stroke-width="2" style="flex:none"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> <span>Strada Mitropolit G. Bănulescu-<b>Bodoni 17</b>, Chișinău</span></div>
+      <div class="visit-addr rv d1"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="var(--gold)" stroke-width="2" style="flex:none"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> <span>Strada Mitropolit G. <span style="white-space:nowrap">Bănulescu‑<b>Bodoni 17</b></span>, Chișinău</span></div>
       <div class="visit-cta rv d2">
         <a href="#events" class="btn btn-gold" data-ru="Смотреть афишу" data-ro="Vezi evenimentele">Смотреть афишу</a>
         <div class="visit-social">
